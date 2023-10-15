@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Calculator.css">
+</head>
+<body>
+    <div id="a">
+        <form action="">
+            <input placeholder="0" id="values" type="text">
+        </form>
+       <div>
+        <button onclick="clearOne()">C</button>
+        <button onclick="clearAll()">CE</button>
+        <button onclick="turnOn()">ON</button>
+        <button onclick="turnOff()">OFF</button>
+        </div>
+    
+       <div> 
+            <button onclick="getValues('9')">9</button>
+             <button onclick="getValues('8')">8</button>
+             <button onclick="getValues('7')">7</button>
+             <button onclick="getValues('+')">+</button>
+        </div>
+       <div> 
+             <button onclick="getValues('6')">6</button>
+             <button onclick="getValues('5')">5</button>
+             <button onclick="getValues('4')">4</button>
+             <button onclick="getValues('-')">-</button>
+    </div>
+        <div>
+            <button onclick="getValues('3')">3</button>
+            <button onclick="getValues('2')">2</button>
+            <button onclick="getValues('1')">1</button>
+            <button onclick="getValues('*')">*</button>
+        </div>
+       <div>
+            <button onclick="getValues('.')">.</button>
+            <button onclick="getValues('0')">0</button>
+            <button onclick="getValues('/')">/</button>
+              <button onclick="calculate()"  onclick="getValues('')">=</button>  
+       </div>
+    
+       </div>
+       
+        
+        <script src="./Calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#a{
+    width: 25%;
+    height: auto;
+    border: 1px solid red;
+    margin: 20px auto;
+   background: linear-gradient(45deg,rgb(169,172,176),white)
+}
+input[type="text"]
+{
+    width: 97.5%;
+    height: 45px;
+}
+button{
+    border-radius: 10%;
+    padding: 6px;
+    margin: 6px;
+    width: 20%;
+    font-size: 25px;
+    border: 1px solid grey;
+   box-shadow: 0 0 2px 2px rgb(152, 151, 150);
+}
+#values{
+    font-size: 35px;
+}
+button:hover{
+    box-shadow: 0 0 2px 2px rgb(0, 217, 255);
+}

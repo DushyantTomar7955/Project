@@ -1,0 +1,20 @@
+function bubbleSortDescending(arr) {
+    let len = arr.length;
+    for (let i = 0; i < len; i++) {
+        for (let j = 0; j < len - 1; j++) {
+            if (arr[j] < arr[j + 1]) {
+                // Swap the elements
+                let temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+    return arr;
+}
+
+
+let array = [5, 2, 8, 1, 4,59,10,15,30,40];
+print("Original Array: " + array);
+let sortedArray = bubbleSortDescending(array);
+print("Array Sorted in Descending Order: " + sortedArray);
